@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaitLess: Digital Hospital Queue</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section class="navigation-bar">
+        <nav>
+        <p>WaitLess</p>
+
+        <!-- navigation links -->
+        <div class="navigation">
+        <a href="#home">Home</a>
+        <a href="#process">How It works</a>
+        <a href="#features">Services</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#doctor-form" class="tab-button">Doctor Login</a>
+        <a href="#pateint-login" class="tab-button">Patient Login</a>
+        </div>
+    </nav>
+    </section>
+
+    <header id="home">
+        <h1>Know Your Time, Skip the Waiting Room.</h1>
+    </header>
+
+    <!-- Intro section -->
+    <section class="intro">
+        <div id="first">
+        <h1>Your Hospital Visit, Simplified</h1>
+    <h2>Join the queue digitally, track your position in real-time, and get notified when it's your turn. No more waiting rooms.</h2>
+
+    <!-- Link styled as button -->
+    <a href="#form-target" class="startbtn">Start Using WaitLess</a>
+    </div>
+    </section>
+    
+
+    <section id="about">
+        <h3>Tired of Long Hospital Lines?</h3>
+        <p>We understand the frustration of waiting hours for medical care. WaitLess transforms the traditional hospital experience.</p>
+        <h5>The Problem</h5>
+        <ul>
+            <li>Average wait times of 2-4 hours to see a doctor</li>
+            <li>Unclear appointment schedules and delays</li>
+            <li>Crowded waiting rooms with poor patient experience</li>
+            <li>Missed work and family time due to long waits</li>
+        </ul>
+    </section>
+
+    <section class="process" id="process">
+        <h2>How WaitLess Works for Patients</h2>
+        <h4>5 simple process to eliminate waiting room stress and get the care you need.</h4>
+        <div class="Steps">
+            <div class="step">1. Register as a patient</div>
+            <div class="step">2. Select Hospital</div>
+            <div class="step">3. Get your Queue Number Automatically</div>
+            <div class="step">4. Track Live Updates</div>
+            <div class="step">5. Receive notification when it is your turn</div>
+        </div>
+        <a href="#form-target" class="startbtn">Register as a Patient</a>
+    </section>
+
+    <section class="features" id="features">
+        <h4>Key Patient Features</h4>
+        <p>Everything you need to manage your hospital visit efficiently and stress-free.</p>
+        <div class="container">
+            <div class="box">
+                <h5>View Your Queue Number</h5>
+                See your digital queue number instantly after check-in. No more lost paper tickets or confusion.
+            </div>
+            <div class="box">
+                <h5>Monitor Live Current Number</h5>
+                Watch the real-time serving number to know exactly when you'll be called. Always up-to-date information.
+            </div>
+            <div class="box">
+                <h5>See How Many People Before You</h5>
+                Get accurate count of patients ahead of you. Plan your time better with live queue data.
+            </div>
+            <div class="box">
+                <h5>Receive Notifications</h5>
+                when only 5 patients remain. Ample time to finish calls and prepare for your appointment.
+            </div>
+            <div class="box">
+                <h5>Advanced notification</h5>
+                when you're next in line. Perfect timing to prepare and head to the consultation room.
+            </div>
+            <div class="box">
+                <h5>Real-time Updates</h5>
+                Live status updates every 30 seconds. Accurate wait times and queue position tracking.
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer">
+            <div class="footer-name">
+                <h4>WaitLess</h4>
+                <p>Transforming healthcare experiences with smart queue management. Save time, reduce stress, and get the care you need, when you need it.</p>
+            </div>
+            <div class="footer-contact">
+                <h5>Contact Us</h5>
+                <p>Email: support@WaitLess.com</p>
+                <p>Phone: +251-901-123-4564</p>
+                <p>Address: Addis Ababa</p>
+            </div>
+            <div class="footer-social">
+                <h5>Follow Us On</h5>
+                <p>
+                    <a href="#">FaceBook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkdIn</a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+    &copy; 2025 WaitLess. All Rights Reserved.
+        </div>
+    </footer>
+
+<!--Patient registration-->
+    <div id="form-target">
+    <div class="modal-content">
+                <h3>Patient Registration</h3>
+                <form class="modal-form">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="First name and Last name">
+                    
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email">
+                    
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="your phone number">
+                    
+                    <label>Select Hospital</label>
+                    <select id="department">
+                        <option value="">Select Hospital</option> <!-- default empty option -->
+                        <option value="Black Lion Hospital">Black Lion Hospital</option>
+                        <option value="St. Paul's Hospital">St. Paul's Hospital</option>
+                        <option value="Millennium Medical College">Millennium Medical College</option>
+                        <option value="Zewditu Memorial Hospital">Zewditu Memorial Hospital</option>
+                        <option value="Saint Gabriel General Hospital">Saint Gabriel General Hospital</option>
+                    </select>
+                    
+                    <label>Reason for Visit</label>
+                    <select id="department">
+                        <option value="">Select reason</option> <!-- default empty option -->
+                        <option value="General Health & Prevention">General Health & Prevention</option>
+                        <option value="Illness & Acute Symptoms">Illness & Acute Symptoms</option>
+                        <option value="Diagnostics & Testing">Diagnostics & Testing</option>
+                        <option value="Specialist Care & Chronic Conditions">Specialist Care & Chronic Conditions</option>
+                        <option value="Surgical & Procedural">Surgical & Procedural</option>
+                        <option value="Women's Health & Maternity">Women's Health & Maternity</option>
+                    </select>
+                    
+                    <button type="submit" class="action-button" style="padding: 10px 0;">Get My Queue Number!</button>
+                    <a href="#" class="close-button">Close</a> 
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+<!--Doctor login-->
+    <div id="doctor-form" class="login">
+        <form>
+        <h3>Doctor Login</h3>
+        <label>Name:</label>
+        <input type="text" placeholder="Firstname Lastname" required>
+
+        <label>Password:</label>
+        <input type="password" required>
+
+        <label>Hospital:</label>
+        <select id="doctor-hospital" name="doctor-hospital" required>
+            <option value="">Select Hospital</option>
+            <option value="Black Lion Hospital">Black Lion Hospital</option>
+            <option value="St. Paul's Hospital">St. Paul's Hospital</option>
+            <option value="Millennium Medical College">Millennium Medical College</option>
+            <option value="Zewditu Memorial Hospital">Zewditu Memorial Hospital</option>
+            <option value="Saint Gabriel General Hospital">Saint Gabriel General Hospital</option>
+        </select>
+
+        <button type="submit">Login</button>
+        <a href="#" class="close-button">Close</a> 
+        </form>
+        </div>
+    </div>
+
+<!--Patient login-->
+    <div id="pateint-login" class="login">
+            <form>
+            <h3>Patient Login</h3>
+            <label>Name:</label>
+            <input type="text" placeholder="Firstname Lastname" required>
+
+            <label>Password:</label>
+            <input type="password" required>
+
+            <button type="submit">Login</button>
+        <a href="#" class="close-button">Close</a>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
